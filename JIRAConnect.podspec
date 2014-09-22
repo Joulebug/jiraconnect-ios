@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
   s.xcconfig       = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/JIRAConnect/JIRAConnect/JMCClasses/Libraries"' }
   s.frameworks     = 'CrashReporter', 'CFNetwork', 'SystemConfiguration', 'MobileCoreServices', 'CoreGraphics', 'AVFoundation', 'CoreLocation'
   s.libraries      = 'sqlite3'
-  s.requires_arc   = false
+  s.requires_arc   = true
   s.dependency       'Reachability', '>= 2.0.4'
 end
