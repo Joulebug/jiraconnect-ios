@@ -171,7 +171,10 @@
 {
     _attachments = newAttachments;
     
-    [self.tableView reloadData];
+    //don't reload the table view if the data is nil
+    if(_attachments){
+        [self.tableView reloadData];
+    }
 }
 
 #pragma mark - Memory Managements Methods
