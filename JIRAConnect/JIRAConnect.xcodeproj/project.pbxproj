@@ -250,7 +250,6 @@
 		4D71E5EC1468962F00E0A7C3 /* button_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_base.png; sourceTree = "<group>"; };
 		4D71E5ED1468962F00E0A7C3 /* button_base@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_base@2x.png"; sourceTree = "<group>"; };
 		4D71E5EE1468962F00E0A7C3 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
-		4D71E5F01468962F00E0A7C3 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/JMCLocalizable.strings; sourceTree = "<group>"; };
 		4D71E5F11468962F00E0A7C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/JMCLocalizable.strings; sourceTree = "<group>"; };
 		4D71E5F21468962F00E0A7C3 /* icon_capture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_capture.png; sourceTree = "<group>"; };
 		4D71E5F31468962F00E0A7C3 /* icon_capture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_capture@2x.png"; sourceTree = "<group>"; };
@@ -784,7 +783,7 @@
 			name = UnitTests;
 			productName = UnitTests;
 			productReference = 0152EC991439CE27006024D1 /* UnitTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		F8B80561139B57EC00EC5AD4 /* JIRAConnect */ = {
 			isa = PBXNativeTarget;
@@ -818,7 +817,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				de,
 				English,
 			);
 			mainGroup = F8B80557139B57EC00EC5AD4;
@@ -948,7 +946,6 @@
 		4D71E5EF1468962F00E0A7C3 /* JMCLocalizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4D71E5F01468962F00E0A7C3 /* de */,
 				4D71E5F11468962F00E0A7C3 /* en */,
 			);
 			name = JMCLocalizable.strings;
